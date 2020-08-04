@@ -891,12 +891,10 @@ var/global/client/ff_debugger = null
 			serverList += "\n[servers[serverId]]"
 
 		clickable.maptext = {"<span class='ol vga'>
-Welcome to Goonstation!
+Welcome to Hazbin Station!
 New? <a style='color: #88f;' href="https://mini.xkeeper.net/ss13/tutorial/">Check the tutorial</a>!
 Have questions? Ask mentors with \[F3]!
-Need an admin? Message us with \[F1].
-
-Other Goonstation servers:[serverList]"}
+Need an admin? Message us with \[F1]."}
 		clickable.maptext_width = 600
 		clickable.maptext_height = 400
 		clickable.plane = 100
